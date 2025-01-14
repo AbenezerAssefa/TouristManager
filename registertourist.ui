@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterTourist</class>
+ <widget class="QDialog" name="RegisterTourist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Register Tourist</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>First Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="txtFirstName">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>Middle Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="txtMiddleName">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>Last Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="txtLastName">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>Passport No</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="txtPassportNo">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>Contact No</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="txtContactNo">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>Permanent Address</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="txtPermanentAddress">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">        color: #444444;                
+        font-family: 'Verdana', sans-serif; 
+        font-weight: bold;            
+        background-color: transparent; </string>
+      </property>
+      <property name="text">
+       <string>Choose Package</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="cmbChoosePackage">
+      <property name="styleSheet">
+       <string notr="true">
+        background-color: #f9f9f9;      
+        color: #333333;                 
+        font-size: 14px;                
+        font-family: 'Arial', sans-serif; 
+        border: 2px solid #0078d4;     
+        border-radius: 8px;           
+        padding: 8px;                   
+   
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QTextEdit" name="txtPackageDescription"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSave">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>460</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    QPushButton {
+        background-color: #0078d4;   
+        color: white;                 
+        font-size: 14px;               
+        font-weight: bold;            
+        border: none;               
+        border-radius: 8px;            
+        padding: 10px 20px;        
+}
+ 
+    QPushButton:hover {
+        background-color: #005a9e;     
+    }
+
+
+    QPushButton:pressed {
+        background-color: #004578;     
+    }
+
+ 
+    QPushButton#btnReset {
+        background-color: #f44336;    
+        color: white;               
+        font-weight: bold;            
+        border: none;             
+        border-radius: 8px;           
+        padding: 10px 20px;          
+    }
+
+    QPushButton#btnReset:hover {
+        background-color: #d32f2f;   
+}
+   
+    QPushButton#btnReset:pressed {
+        background-color: #b71c1c;     
+    }
+</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>460</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    QPushButton {
+        background-color: #0078d4;   
+        color: white;                 
+        font-size: 14px;               
+        font-weight: bold;            
+        border: none;               
+        border-radius: 8px;            
+        padding: 10px 20px;        
+}
+ 
+    QPushButton:hover {
+        background-color: #005a9e;     
+    }
+
+
+    QPushButton:pressed {
+        background-color: #004578;     
+    }
+
+ 
+    QPushButton#btnReset {
+        background-color: #f44336;    
+        color: white;               
+        font-weight: bold;            
+        border: none;             
+        border-radius: 8px;           
+        padding: 10px 20px;          
+    }
+
+    QPushButton#btnReset:hover {
+        background-color: #d32f2f;   
+}
+   
+    QPushButton#btnReset:pressed {
+        background-color: #b71c1c;     
+    }
+</string>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

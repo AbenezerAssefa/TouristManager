@@ -1,0 +1,10 @@
+*.o
+*.obj
+*.exe
+*.dll
+build/
+*.pro.user
+moc_*.cpp
+ui_*.h
+
+																																											``
