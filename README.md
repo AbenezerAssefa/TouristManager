@@ -1,4 +1,4 @@
-# 📖 [Tourist Management System (TMS)] <a name="about-project"></a>
+# 📖 Tourist Management System (TMS) <a name="about-project"></a>
 
 <h4>The Tourist Management System (TMS) is a desktop application built using **C++** and **Qt Framework** for managing tourist information. The application allows users to register and store details such as tourist name, passport number, contact info, and travel package preferences. It uses **SQLite** as a backend database to store all the tourist data.</h4>
 
